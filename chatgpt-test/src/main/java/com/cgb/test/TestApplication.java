@@ -1,7 +1,7 @@
 package com.cgb.test;
 
-import com.xdz.chatgpt.config.auto.EnableChatGpt;
-import com.xdz.chatgpt.service.ChatGptService;
+import com.cgb.chatgpt.config.auto.EnableChatGpt;
+import com.cgb.chatgpt.service.ChatGptService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;

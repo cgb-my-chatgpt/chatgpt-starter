@@ -5,7 +5,7 @@
     <modules>
         <module>chatgpt-spring-boot-autoconfigure</module>
         <module>chatgpt-spring-boot-starter</module>
-        <module>test</module>
+        <module>chatgpt-test</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -17,8 +17,8 @@
     <artifactId>chatgpt-starter</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>chatgpt</name>
-    <description>chatgpt</description>
+    <name>chatgpt-starter</name>
+    <description>chatgpt-starter</description>
 
     <properties>
         <java.version>1.8</java.version>

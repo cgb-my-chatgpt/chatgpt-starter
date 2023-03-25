@@ -8,8 +8,8 @@
         <version>2.6.11</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.xdz</groupId>
-    <artifactId>test</artifactId>
+    <groupId>com.cgb</groupId>
+    <artifactId>chatgpt-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
     <description>test</description>
@@ -24,7 +24,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.xdz</groupId>
+            <groupId>com.cgb</groupId>
             <artifactId>chatgpt-spring-boot-starter</artifactId>
             <version>1.0.0</version>
         </dependency>
