@@ -7,7 +7,7 @@
 ## 1、添加maven依赖
 ```xml
 <dependency>
-  <groupId>com.xdz</groupId>
+  <groupId>com.cgb</groupId>
   <artifactId>chatgpt-spring-boot-starter</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -17,7 +17,7 @@
 ```yaml
 chatgpt:
   api-key: #官网申请的apiKey
-  model: gpt_4 #支持不同的模型，项目中有枚举类说明每种的特点com.xdz.chatgpt.config.enums.ModelEnum
+  model: gpt_4 #支持不同的模型，项目中有枚举类说明每种的特点com.cgb.chatgpt.config.enums.ModelEnum
   max-tokens: 500 #指定生成文本的长度，太小影响返回的结果，太大相对比较耗费资源（收费方式于此有关）
   temperature: 0.5 #用于控制生成文本的创造性和多样性的参数，值越大生成的文本越不可预测，值越小生成的文本越保守和可预测
 ```
@@ -55,5 +55,6 @@ class ChatGptTests {
 ```
 结果相对可能不太友好，之后会持续改进，但此项目使用的是官方的api，不用担心不能用的问题
 # 2、联系方式
-如果有更多的需求或者相关的意见或建议，请联系：<br />qq: 3337466712
+如果有更多的需求或者相关的意见或建议，请联系：<br />qq: 3332645990
+
 # chatgpt-starter
